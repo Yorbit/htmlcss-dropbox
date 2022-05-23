@@ -6,23 +6,33 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 .container {
-    max-width: 1900px;
+    max-width: 2560px;
     margin: 0 auto;
+}
+
+#first-look {
+    background-color: rgb(185, 207, 230);
+    height: 750px;
 }
 
 header {
     background-color: white;
-    height: 60px;
+    height: 80px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     right: 0;
     font-weight: 400;
+
+}
+
+.user-menu {
+    align-items: center;
 }
 
 a {
@@ -39,22 +49,28 @@ ul {
 }
 
 li {
-    padding-left: 50px;
+    padding-left: 20px;
     font-size: 18px;
 }
 
 .button {
     background-color: rgb(40, 95, 246);
-    display: inline;
+    display: inline-block;
     padding: 8px 15px;
     color: white;
     font-size: 18px;
+}
+
+.button.blue {
+    padding: 10px 15px;
+    margin-top: 10px;
 }
 
 #logo {
     height: 30px;
     display: block;
     margin: 0 auto;
+    align-items: center;
 }
 
 header .navbar {
@@ -64,19 +80,84 @@ header .navbar {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 
-section {
+/*jumbo*/
+
+#section-one {
     padding: 70px;
     min-height: 200px;
-    background-color: rgb(185, 207, 230);
+    max-width: 70%;
 }
 
-#jumbotron .content {
-    width: 50%;
-    align-items: center;
-    font-size: 50px;
+.content-main {
+    width: 65%;
+    display: flex;
+    padding-top: 40px;
+}
+
+h1 {
+    width: 100%;
+    font-size: 76px;
     margin-bottom: 20px;
-    font-weight: 700;
+    font-weight: 800;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbo-right img {
+    width: 200%;
+}
+
+.jumbo-left .p {
+    display: flex;
+}
+
+.jumbo-left-text {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.small-text {
+    font-size: 1.1rem;
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+
+i {
+    font-size: 60px;
+}
+
+h2 {
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+#title-business {
+    min-height: 200px;
+    width: 50%;
+}
+
+#times {
+    padding-top: 60px;
+}
+
+#business {
+    display: flex;
+}
+
+.plan {
+    border: 1px solid darkgray
+}
+
+.plan-types {
+    width: 30%;
+    height: 800px;
 }
