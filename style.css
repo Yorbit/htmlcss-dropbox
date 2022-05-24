@@ -36,7 +36,7 @@ a {
     color: black;
 }
 
-ul {
+.col ul {
     list-style: none;
     display: flex;
     color: black;
@@ -44,7 +44,7 @@ ul {
     align-items: center;
 }
 
-li {
+.col li {
     padding-left: 20px;
     font-size: 18px;
 }
@@ -132,9 +132,8 @@ h2 {
     text-align: left;
 }
 
-.round i {
-    font-size: 16px;
-
+h3 {
+    font-size: 24px;
 }
 
 .round {
@@ -187,22 +186,57 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
+    height: 1000px
+}
+
+.single-plan {
+    line-height: 45px;
 }
 
 .plan-category {
-    min-height: 100px;
     text-align: center;
+}
+
+.plan-name {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.plan-price {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
 }
 
 .w-30 {
     width: 30%;
-}
-
-h3 {
-    padding-top: 20px;
-    text-align: left;
+    padding: 10px;
 }
 
 .grey {
     color: gray;
+}
+
+.info-plan li {
+    padding: 10px;
+}
+
+.actions {
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    font-size: large;
+}
+
+.fa-ul li {
+    padding: 20px;
 }
