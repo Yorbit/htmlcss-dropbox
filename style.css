@@ -16,7 +16,7 @@ body {
 
 #first-look {
     background-color: rgb(185, 207, 230);
-    height: 730px;
+    height: 720px;
 }
 
 header {
@@ -238,7 +238,7 @@ h3 {
 
 .w-100 {
     width: 100%;
-
+    justify-content: space-between;
 }
 
 .grey {
@@ -266,7 +266,10 @@ h3 {
 }
 
 .office {
-    margin-top: 40px;
+    flex-wrap: wrap;
     padding: 15px;
-    padding-top: 150px;
+}
+
+#last {
+    padding: 10px;
 }
