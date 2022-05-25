@@ -465,7 +465,7 @@ hr {
 
 .free-trial-square {
     width: 100%;
-    padding-top: 150px;
+    padding-top: 130px;
     background-color: rgb(177, 206, 230);
     align-items: center;
     height: 400px;
@@ -479,4 +479,45 @@ hr {
     border: 1px solid transparent;
     text-decoration: none;
     text-align: center;
+}
+
+.question {
+    padding-top: 120px;
+    height: 250px;
+}
+
+.faq-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.question-title {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 30px 30px 30px 0;
+    cursor: pointer;
+}
+
+.question-content {
+    padding-top: 35px;
+}
+
+.question-content {
+    display: none;
+}
+
+.question-title::after {
+    font-weight: bolder;
+    content: "\02C5";
+}
+
+.question-title:hover .question-content {
+    display: block;
+}
+
+.question-title:hover::after {
+    font-weight: bolder;
+    content: "\02C4";
 }
