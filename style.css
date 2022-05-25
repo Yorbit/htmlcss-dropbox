@@ -267,6 +267,10 @@ hr {
     padding-top: 50px;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 .w-60 {
     width: 60%;
 }
@@ -361,5 +365,63 @@ hr {
 }
 
 .more-info {
+    padding-top: 40px;
+}
+
+.partnerships .squares {
+    height: 500px;
+    width: calc(100% / 3);
+}
+
+.partnerships,
+.squares .square-big {
+    flex-wrap: wrap;
+}
+
+.square-small {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid transparent;
+    transition: border-color 0.2s linear;
+}
+
+.squares {
+    display: flex;
+    background-color: gray;
+    width: calc(100% / 3);
+    height: 500px;
+}
+
+.square-big {
+    height: calc(100vw /3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square-small img {
+    filter: invert(1);
+    width: 50%;
+    display: block;
+}
+
+.bg-green {
+    background-color: rgb(162, 211, 155);
+}
+
+.bg-bordeaux {
+    background-color: rgb(99, 8, 44);
+}
+
+.bg-skyblue {
+    background-color: rgb(0, 145, 209);
+}
+
+.bg-orange {
+    background-color: rgb(251, 28, 29);
+}
+
+.content {
     padding-top: 40px;
 }
