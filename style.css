@@ -326,3 +326,15 @@ hr {
     text-decoration: none;
     text-align: center;
 }
+
+.container-focus {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
