@@ -256,6 +256,10 @@ hr {
     margin-bottom: 20px;
 }
 
+.w-20 {
+    width: 20%;
+}
+
 .w-30 {
     width: 30%;
     padding: 10px;
@@ -489,6 +493,7 @@ hr {
 .faq-container {
     width: 1000px;
     margin: 0 auto;
+    padding-bottom: 150px;
 }
 
 .question-title {
@@ -520,4 +525,44 @@ hr {
 .question-title:hover::after {
     font-weight: bolder;
     content: "\02C4";
+}
+
+.footer-zone {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+}
+
+.foot-colm a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.start-footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.footer-zone hr {
+    width: 15%;
+    color: lightgray;
+}
+
+.foot-colm h4 {
+    padding: 40px 0;
+}
+
+.foot-colm li {
+    padding-top: 15px;
 }
