@@ -556,7 +556,9 @@ li {
 
 .footer-zone hr {
     width: 15%;
-    color: lightgray;
+    color: gray;
+    margin: 0 400px;
+    margin-top: 100px;
 }
 
 .foot-colm h4 {
@@ -565,4 +567,19 @@ li {
 
 .foot-colm li {
     padding-top: 15px;
+}
+
+.end-footer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#lang {
+    margin-top: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: grey;
+    text-decoration: none;
+    margin: 0 -100px;
 }
