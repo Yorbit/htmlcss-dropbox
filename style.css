@@ -369,7 +369,7 @@ hr {
 }
 
 .partnerships .squares {
-    height: 500px;
+    height: 683px;
     width: calc(100% / 3);
 }
 
@@ -389,9 +389,9 @@ hr {
 
 .squares {
     display: flex;
-    background-color: gray;
-    width: calc(100% / 3);
-    height: 500px;
+    background-color: transparent;
+    height: 100%;
+    width: 100%
 }
 
 .square-big {
@@ -404,6 +404,15 @@ hr {
     filter: invert(1);
     width: 50%;
     display: block;
+}
+
+.square-middle {
+    width: 75%;
+    flex-wrap: wrap;
+}
+
+.content {
+    padding: 30px;
 }
 
 .bg-green {
@@ -424,4 +433,50 @@ hr {
 
 .content {
     padding-top: 40px;
+    background-color: rgb(245, 245, 245);
+}
+
+.bg-red {
+    background-color: rgb(210, 0, 30);
+}
+
+.bg-lightblue {
+    background-color: rgb(180, 210, 231);
+}
+
+.bg-blue {
+    background-color: rgb(13, 35, 130);
+}
+
+.bg-yellow {
+    background-color: rgb(255, 215, 50);
+}
+
+.container-end {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 400px;
+    align-items: baseline;
+    color: rgb(99, 8, 44);
+}
+
+.free-trial-square {
+    width: 100%;
+    padding-top: 150px;
+    background-color: rgb(177, 206, 230);
+    align-items: center;
+    height: 400px;
+}
+
+.button-white {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 15px 15px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    text-align: center;
 }
