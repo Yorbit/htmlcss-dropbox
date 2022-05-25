@@ -178,6 +178,7 @@ h3 {
     justify-content: space-between;
     flex-wrap: wrap;
     height: 1400px;
+    margin-bottom: 450px;
 }
 
 .border {
@@ -194,7 +195,8 @@ h3 {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    height: 1000px
+    height: 75%;
+    margin-bottom: 50px;
 }
 
 .single-plan {
@@ -213,6 +215,16 @@ h3 {
     text-align: center;
 }
 
+#check {
+    color: rgb(0, 97, 255)
+}
+
+hr {
+    width: 20%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
 .plan-name {
     text-align: left;
     padding-top: 20px;
@@ -227,9 +239,24 @@ h3 {
     padding-bottom: 20px;
 }
 
+.m-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .w-30 {
     width: 30%;
     padding: 10px;
+}
+
+.w-40 {
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.w-60 {
+    width: 60%;
 }
 
 .w-70 {
@@ -238,7 +265,10 @@ h3 {
 
 .w-100 {
     width: 100%;
-    justify-content: space-between;
+}
+
+.link-office {
+    margin-left: 750px;
 }
 
 .grey {
@@ -255,14 +285,14 @@ h3 {
 }
 
 .title {
-    padding-top: 100px;
+    padding-top: 70px;
     padding-left: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-size: large;
 }
 
 .fa-ul li {
-    padding: 20px;
+    padding: 15px;
 }
 
 .office {
@@ -272,4 +302,27 @@ h3 {
 
 #last {
     padding: 10px;
+}
+
+.info-plan p {
+    padding-left: 20px;
+}
+
+.container-partner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.partner {
+    display: flex;
+}
+
+.botton-partner {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
 }
