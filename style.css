@@ -251,6 +251,10 @@ hr {
     padding-bottom: 20px;
 }
 
+.data {
+    padding: 10px;
+}
+
 .m-20 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -262,7 +266,6 @@ hr {
 
 .w-30 {
     width: 30%;
-    padding: 10px;
 }
 
 .w-40 {
@@ -375,11 +378,13 @@ hr {
 .partnerships .squares {
     height: 683px;
     width: calc(100% / 3);
+    background-color: rgb(245, 245, 245)
 }
 
 .partnerships,
 .squares .square-big {
     flex-wrap: wrap;
+
 }
 
 .square-small {
@@ -412,7 +417,7 @@ hr {
 
 .square-middle {
     width: 75%;
-    flex-wrap: wrap;
+    background-color: rgb(245, 245, 245)
 }
 
 .content {
