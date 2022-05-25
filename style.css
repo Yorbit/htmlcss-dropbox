@@ -31,9 +31,21 @@ header {
     align-items: center;
 }
 
-a {
+header a {
     text-decoration: none;
     color: black;
+}
+
+#jumbotron a {
+    text-decoration: none;
+}
+
+.actions a {
+    text-decoration: none;
+}
+
+a {
+    color: blue;
 }
 
 :not(.plans).col ul {
@@ -337,4 +349,17 @@ hr {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.container-info {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+#info-customers {
+    margin-top: 60px;
+}
+
+.more-info {
+    padding-top: 40px;
 }
