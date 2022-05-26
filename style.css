@@ -560,7 +560,7 @@ li {
 }
 
 .footer-zone hr {
-    width: 15%;
+    width: 10%;
     color: gray;
     margin: 0 400px;
     margin-top: 100px;
@@ -575,8 +575,9 @@ li {
 }
 
 .end-footer {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 #lang {
@@ -586,5 +587,4 @@ li {
     border: none;
     color: grey;
     text-decoration: none;
-    margin: 0 -100px;
 }
